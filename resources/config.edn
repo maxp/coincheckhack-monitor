@@ -1,0 +1,98 @@
+{
+  :scan 
+  {
+    :init-database false
+
+    :hacker-list
+    [
+      "NC4C6PSUW5CLTDT5SXAGJDQJGZNESKFK5MCN77OG"  ; 2999999750000
+      "NCM6WE7SJFDVTLSPTMZGBUZUETDYINITILS3DCIZ"  ; 300000000000
+      "NA6JSWNF24Y7DVIUVPKRNAY7TPOFJJ7G2URL7KU5"  ; 92249997500000
+      "NDDZVF32WB3LWRNG3IVGHCOCAZWENCNRGEZJVCJI"  ; 100000000000000
+      "NB4QJJCLTZWVFWRFBKEMFOONOZFDH3V5IDK3G524"  ; 100000000000000
+      "NDZZJBH6JZPYSWRPRYHALLWMITWHOYTQGXR53HAW"  ; 100000000000000
+      "NBKLQYXEIVEEGARYPUM62UJIFHA3Y6R4LAPU6NP4"  ; 750000000000
+      "NDODXOWEIZGJSMAEURXACF4IEHC2CB7Q6T56V7SQ"  ; 50000000000000
+      "NA7SZ75KF6ZKK267TRKCJDJBWP5JKIC2HA5PXCKW"  ; 50000000000000
+      "NCTWFIOOVITRZYSYIGQ3PEI3IMVB25KMED53EWFQ"  ; 30000000000001
+      "NCF6IA5ZNKIUXE3COV7WK23EIOBEPDV5DJFZQTTH"]  
+      ; "NCVPRFXRIDDF7PXKBF6CKKI76H3M5H5TSXT5K575"
+      ; "NCMWFB2PF7FW5I27YVIIXB676S6XR4JG3IYY6YGH"
+    :known-list
+    [
+      {:addr "NDJJSGZT25KUIJVITJLRKTD3HB6NB5FMONQUMBVE" :note "AEX_0"}          ; https://www.aex.com/
+      {:addr "NBA7SFOHPI3MHWKQWCJMWJQHMOCAHXNM2PYY36SA" :note "AEX"}            ; https://www.aex.com/
+      {:addr "NCBZAMAEQCSVJDGBTG5G3343RDHOSHJZKTVVI5DN" :note "Abucoins"}       ; https://abucoins.com/
+      {:addr "NCRZPBT75WDYL7DXK2MOJMSS64JR7XVH7IH54XJY" :note "Alfacashier"}    ; https://www.alfacashier.com
+      {:addr "NDFZOO6VNBCZ7T7XGLEUIPRZWT2OMXIR7CMC4N3Y" :note "btc-alpha.com"}  ; http://btc-alpha.com
+      {:addr "ND2JRPQIWXHKAA26INVGA7SREEUMX5QAI6VU7HNR" :note "Bittrex"}        ; https://bittrex.com/
+      {:addr "NCCFO5QDFV5FS3BTBPEU2QO6UHZD7PHGFNCPISDL" :note "Bitcoin Indonesia"} ; https://vip.bitcoin.co.id/
+      {:addr "NC2MYWXT3YOSAIBTWBCW7ZKCE4R4NIKYCF7S76UC" :note "Bter"}           ; https://bter.com/
+      {:addr "NDKTFWVFDHDUL4L3GXQ32RVOHQ5IJ5DEAYHOJ7YS" :note "Bter_1"}
+      {:addr "ND7HQ73YTGNEYJT6PPVOR6GM2RHTVJTNRG2NW5B6" :note "Btc38"}
+      {:addr "NCQJR647FLD7UM6FFVL4Z7DYLWJ3I6OGV5TMALUO" :note "Changelly"}
+      {:addr "NBLQ6PE7Z5CVANJNXGOR74UQLOJ2YMGJJOZ4YFAQ" :note "Changelly_1"}
+      {:addr "NC3BI3DNMR2PGEOOMP2NKXQGSAKMS7GYRKVA5CSZ" :note "Coincheck"}
+      {:addr "NAWY52S4MBWST5JDXDSA4BDDF5GR2CJZ3IZ2DUX7" :note "Coinpayments"}   ; https://www.coinpayments.net/
+      {:addr "NCIAU7SMHG47JC6FKZ2ZVBSHIKLKEUBLC36BZSW3" :note "coinbe.net"}     ; https://coinbe.net
+      {:addr "NC6GOUR4ICVVPPK7N4UIYWDJM6LTUBJFR7OVXDS5" :note "crex24.com"}
+      {:addr "NBQ73BYLVGMO7L2WFG2VVOJHOBWWJKW7D3V7UE4E" :note "Cryptopia"}      ; https://www.cryptopia.co.nz/
+      {:addr "NBJZL2BAN2VQMIYTVHPJZUFKJEOT4DOBQF2NSFDD" :note "dimcoin deposit"}
+      {:addr "ND3B5UDCIBPOJA5P43VMQYATX2X5I4DRGLS7D76N" :note "Eobot"}          ; http://eobot.com
+      {:addr "NDGQY7EKY5PLCPNKEXWHIWH3Y62DO4NQIEXE7I4V" :note "Extrates"}       ; https://exrates.me/dashboard
+      {:addr "NC7ROGDITAJRT57CK27MQBSNBLNTUZTFKVXAILXQ" :note "Extrates_1"}     ; https://exrates.me/dashboard
+      {:addr "NA2KC36U4YIHDVMBEKGGFWBGOIVJMB5XAM7X2ETI" :note "Freewallet"}     ; https://freewallet.org
+      {:addr "NBX3QKZJV2UPO3NJ5ULTFW2V5EE4N2I5N2REX7PO" :note "HitBTC"}         ; https://hitbtc.com/
+      {:addr "NCP7UH5BT5OHPAWPFFVNR2453BNODJUZJ6777N3N" :note "HitBTC_1"}
+      {:addr "NCXDAHKIRVCMS2HEXBHYDSUWXABAYGVNLB3HZFWJ" :note "HitBTC_2"}
+      {:addr "NDABPHWFPH7KL5FADCW66V4GYLVXHKYQIPWL4G2B" :note "Huobi"}          ; https://www.huobi.pro/
+      {:addr "NCB46TPCVSVZBUKVIGINOBROQWZDR2ZOQVFJB74Y" :note "Huobi_1"}        ; https://www.huobi.pro/
+      {:addr "NBX3KNPAAYYEOMMAPHQSXLKUPS2THW3MN72GIF2M" :note "Kex"}
+      {:addr "NDHRTRL2Z2R6K3HD3OSLVGQJUWOWQ6VMMTYIEE43" :note "Koineks"}        ; https://koineks.com
+      {:addr "NDKIDQOVCGN463JUSAUJ3YKGLVVLSZV3ZKA46JQC" :note "Livecoin"}       ; https://www.livecoin.net/
+      {:addr "NCQNOUAAEA3RCBNFGYY5ULXWQTV3X6M2FYISDSGR" :note "luckygames.io"}  ; https://luckygames.io/
+      {:addr "NBAPJNCPMLPRB3L76GCMO42XRAG4WKYFWMDULIKM" :note "1xbit Casino"}   ; https://1xslot.com
+      {:addr "NDQGDDUCXQ6MWAJQVTAUXUHNVZZSGQ3MV3FKAYLU" :note "obmen.money"}    ; https://obmen.money
+      {:addr "NCYAVMNQOZ3MZETEBD34ACMAX3S57WUSWAZWY3DW" :note "OKEx"}           ; https://www.okex.com/
+      {:addr "NCEQIWY7MAJYBSK3VANZUZVKBRIZARDH2NTHEDRR" :note "orangeexchangepro.com"}  ; https://orangeexchangepro.com
+      {:addr "NBZMQO7ZPBYNBDUR7F75MAKA2S3DHDCIFG775N3D" :note "Poloniex"}       ; https://poloniex.com/
+      {:addr "NDTQ3H2AK67ONOBJQO6EHOR43HMVK2APMFRSJ2YJ" :note "Qryptos"}        ; https://www.qryptos.com
+      {:addr "NCKV5IMPU633ZSOUPWESFWPED5HZ5QONPYT5FRZO" :note "Shapeshift"}     ; https://shapeshift.io
+      {:addr "NAMLQUBJNNJRV5Y47GNJ7VXB5OHJHYBLHOYF7RVR" :note "Spectrocoin"}    ; https://spectrocoin.com/
+      {:addr "NDA7NIVT3FJ4RZRKSMR4YSJBCNZHAGGZEVIO4GVA" :note "Spectrocoin_1"}  ; https://spectrocoin.com/
+      {:addr "NDIGV7FUKZWTXNERTFRPKBCZLCDUUE5HJVQHTJQZ" :note "Spectrocoin_2"}  ;
+      {:addr "NBRT3YQTVHLTYBDUXH2HHURI5KCYDWRWJ63YWIGG" :note "Yobbit"}         ; https://yobit.net/en/
+      {:addr "NAGJG3QFWYZ37LMI7IQPSGQNYADGSJZGJRD2DIYA" :note "Zaif"}           ; https://zaif.jp/
+
+      {:addr "NDIGV7FUKZWTXNERTFRPKBCZLCDUUE5HJVQHTJQZ" :note "???"}]  
+
+      
+    :interval 20}   ;; sec
+  
+  :notify
+    {
+      :apikey "472978714:........"
+      :uids [-1001259129906]   ;; CoinCheckHack exchange notification
+      :init-height nil}
+  ;
+
+  :nis
+  {
+    ; :nodes ["http://nis.local:7890"] 
+    ; :nodes ["http://go.nem.ninja:7890" "http://hachi.nem.ninja:7890"] 
+    :nodes ["http://go.nem.ninja:7890"]
+    :timeout 20000
+    :delay 100}
+    
+  :http 
+  {
+    :host  "127.0.0.1"
+    :port  7880
+    :join? false}
+
+  :mdb
+  {
+    :url "mongodb://localhost:27017/ccheck"}}
+
+;.
+

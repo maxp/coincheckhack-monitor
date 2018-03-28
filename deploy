@@ -1,0 +1,19 @@
+#!/bin/bash
+
+source ./env.sh
+
+PRJ=${PROJECT_NAME}
+
+PROD_ROOT=$PROD_HOST:$PROD_PATH
+
+UBERJAR="tmp/target/${PRJ}.jar"
+
+ssh $PROD_HOST mkdir -p $PROD_PATH/tmp
+scp env.sh run-loop start stop tmp/prod.edn $PROD_ROOT/
+
+chmod u+w $UBERJAR
+scp $UBERJAR $PROD_ROOT/
+
+ssh $PROD_HOST $PROD_PATH/stop
+
+#.

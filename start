@@ -1,0 +1,14 @@
+#!/bin/bash
+
+source ./env.sh
+
+JAR=${PROJECT_NAME}.jar
+CWD=$(dirname "${BASH_SOURCE[0]}")
+
+java -jar ${JAR} prod.edn >> ${PROD_LOG} 2>&1 &
+
+PID=$!
+echo $PID > $CWD/.pid
+wait $PID
+
+#.
